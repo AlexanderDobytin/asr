@@ -1,0 +1,75 @@
+.b-ermolaev-header
+	.b-header__wrapper
+		.b-header.b-header--mobile
+			.b-logo__wrapper
+				a(href="/").b-header__logo.b-logo
+					img(src='images/logo.png').b-logo__pix.b-logo__pix--not
+					img(src='images/logo-hover.png').b-logo__pix.b-logo__pix--hover
+			nav.b-header__menu
+				ul.b-menu
+					li.b-menu__elem
+						a(href='drinks.html').b-menu__link Напитки
+						.b-secondMenu
+							.b-secondMenu__item
+								.b-secondMenu__textblock
+									h3.b-secondMenu__title Напитки
+									p.b-secondMenu__subtitle Пивоварня «ЕрмолаевЪ» была запущена в 2008 году. Чешское и Немецкое сырье, а основу рецептуры составили старинные рецепты известных всей дореволюционной России пивных династий и лучшие традиционные европейские сорта.
+								nav
+									ul.b-secondMenu__menu
+										li.b-secondMenu__element
+											a(href='').b-secondMenu__link Оригинальные
+										li.b-secondMenu__element
+											a(href='').b-secondMenu__link Премиальные
+										li.b-secondMenu__element
+											a(href='').b-secondMenu__link Сезонные
+										li.b-secondMenu__element
+											a(href='').b-secondMenu__link Квас
+										li.b-secondMenu__element
+											a(href='').b-secondMenu__link Лимонад
+								.b-secondMenu__slider(data-nav='false' data-width='300' data-height='200' )
+									img(src="images/original.png").b-secondMenu__pix
+									img(src="images/prem.png").b-secondMenu__pix
+									img(src="images/season.png").b-secondMenu__pix
+									img(src="images/original.png").b-secondMenu__pix
+									img(src="images/prem.png").b-secondMenu__pix
+					li.b-menu__elem
+						a(href='brewery.html').b-menu__link Команда
+						.b-secondMenu
+							.b-secondMenu__item
+								.b-secondMenu__textblock
+									h3.b-secondMenu__title Команда
+									p.b-secondMenu__subtitle Пивоварня «ЕрмолаевЪ» была запущена в 2008 году. Чешское и Немецкое сырье, а основу рецептуры составили старинные рецепты известных всей дореволюционной России пивных династий и лучшие традиционные европейские сорта.
+								ul.b-secondMenu__menu
+									li.b-secondMenu__element
+										a(href='').b-secondMenu__link История
+									li.b-secondMenu__element
+										a(href='').b-secondMenu__link О нас
+									li.b-secondMenu__element
+										a(href='').b-secondMenu__link Экскурсии
+									li.b-secondMenu__element
+										a(href='').b-secondMenu__link Контакты
+								.b-secondMenu__slider(data-nav='false' data-width='300' data-height='200'  )
+									img(src="images/history.png").b-secondMenu__pix
+									img(src="images/team.png").b-secondMenu__pix
+									img(src="images/excurs.png").b-secondMenu__pix
+									img(src="images/brewery.png").b-secondMenu__pix
+					li.b-menu__elem
+						a(href='news.html').b-menu__link Интересное
+					//	include secondMenu.jade
+					li.b-menu__elem
+						a(href='contact.html').b-menu__link Где купить
+					li.b-menu__elem
+						a(href='partners.html').b-menu__link Партнерам
+			.b-header__social.b-social
+				a(href='').b-social__element.b-social__element--vk 
+				a(href='').b-social__element.b-social__element--fb 
+				//-a(href='').b-social__element.b-social__element--tw 
+				a(href='').b-social__element.b-social__element--inst 
+		.b-slider.fotorama(data-width='100%' data-height='240' data-maxheight="240")
+			.b-slider__slide
+				img(src="images/slide1.png").b-slider__bg
+				h2.b-slider__title--mobile Где купить?
+				.b-slider__textwrapper
+					.b-slider__text
+						h2.b-slider__title Хочешь попробовать?
+						span.b-slider__subtitle Все магазины, бары и рестораны, где любят пиво "Ермолаевъ"

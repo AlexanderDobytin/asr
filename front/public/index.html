@@ -6,10 +6,12 @@
     <title>Union</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/tooltipster.bundle.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/pace.min.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
     <script type="text/javascript" src="js/tooltipster.bundle.js"></script>
     <script type="text/javascript" src="js/site.js"></script>
@@ -112,7 +114,8 @@
           </div>
         </div>
       </article>
-      <article class="b-ermolaev__article b-ermolaev__article--3">
+      <article class="b-ermolaev__article b-ermolaev__article--6">
+        <div class="b-ermolaev__subline">Детально проработанное основное меню</div>
         <div class="b-ermolaev-header">
           <div class="b-header__wrapper">
             <div class="b-header b-header--mobile">
@@ -139,24 +142,23 @@
                       </div>
                     </div>
                   </li>
-                  <li class="b-menu__elem"><a href="brewery.html" class="b-menu__link">Команда</a></li>
-                  <div class="b-secondMenu">
-                    <div class="b-secondMenu__item">
-                      <div class="b-secondMenu__textblock">
-                        <h3 class="b-secondMenu__title">Команда</h3>
-                        <p class="b-secondMenu__subtitle">Пивоварня «ЕрмолаевЪ» была запущена в 2008 году. Чешское и Немецкое сырье, а основу рецептуры составили старинные рецепты известных всей дореволюционной России пивных династий и лучшие традиционные европейские сорта.</p>
-                      </div>
-                      <nav>
+                  <li class="b-menu__elem"><a href="brewery.html" class="b-menu__link">Команда</a>
+                    <div class="b-secondMenu">
+                      <div class="b-secondMenu__item">
+                        <div class="b-secondMenu__textblock">
+                          <h3 class="b-secondMenu__title">Команда</h3>
+                          <p class="b-secondMenu__subtitle">Пивоварня «ЕрмолаевЪ» была запущена в 2008 году. Чешское и Немецкое сырье, а основу рецептуры составили старинные рецепты известных всей дореволюционной России пивных династий и лучшие традиционные европейские сорта.</p>
+                        </div>
                         <ul class="b-secondMenu__menu">
                           <li class="b-secondMenu__element"><a href="" class="b-secondMenu__link">История</a></li>
                           <li class="b-secondMenu__element"><a href="" class="b-secondMenu__link">О нас</a></li>
                           <li class="b-secondMenu__element"><a href="" class="b-secondMenu__link">Экскурсии</a></li>
                           <li class="b-secondMenu__element"><a href="" class="b-secondMenu__link">Контакты</a></li>
                         </ul>
-                      </nav>
-                      <div data-nav="false" data-width="300" data-height="200" class="b-secondMenu__slider"><img src="images/history.png" class="b-secondMenu__pix"><img src="images/team.png" class="b-secondMenu__pix"><img src="images/excurs.png" class="b-secondMenu__pix"><img src="images/brewery.png" class="b-secondMenu__pix"></div>
+                        <div data-nav="false" data-width="300" data-height="200" class="b-secondMenu__slider"><img src="images/history.png" class="b-secondMenu__pix"><img src="images/team.png" class="b-secondMenu__pix"><img src="images/excurs.png" class="b-secondMenu__pix"><img src="images/brewery.png" class="b-secondMenu__pix"></div>
+                      </div>
                     </div>
-                  </div>
+                  </li>
                   <li class="b-menu__elem"><a href="news.html" class="b-menu__link">Интересное</a></li>
                   <!--	include secondMenu.jade-->
                   <li class="b-menu__elem"><a href="contact.html" class="b-menu__link">Где купить</a></li>
@@ -165,6 +167,141 @@
               </nav>
               <div class="b-header__social b-social"><a href="" class="b-social__element b-social__element--vk"></a><a href="" class="b-social__element b-social__element--fb"></a><a href="" class="b-social__element b-social__element--inst"></a>
               </div>
+            </div>
+            <div data-width="100%" data-height="240" data-maxheight="240" class="b-slider fotorama">
+              <div class="b-slider__slide"><img src="images/slide1.png" class="b-slider__bg">
+                <h2 class="b-slider__title--mobile">Где купить?</h2>
+                <div class="b-slider__textwrapper">
+                  <div class="b-slider__text">
+                    <h2 class="b-slider__title">Хочешь попробовать?</h2><span class="b-slider__subtitle">Все магазины, бары и рестораны, где любят пиво "Ермолаевъ"</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="b-ermolaev__article b-ermolaev__article--7">
+        <div class="b-ermolaev-mobile">
+          <div class="b-ermolaev__subline">Выбор продукта</div>
+          <div class="b-ermolaev-mobile__frame">
+            <div class="b-ermolaev-mobile__wrapper">
+              <div class="b-mobileMennu">
+                <div class="b-mobileMennu__button"> 
+                  <div class="b-mobileMennu__strip b-mobileMennu__strip--top"></div>
+                  <div class="b-mobileMennu__strip b-mobileMennu__strip--center"></div>
+                  <div class="b-mobileMennu__strip b-mobileMennu__strip--bottom"></div>
+                </div>
+                <div class="b-mobileMennu__container">
+                  <div class="b-mobileMennu__menu">
+                    <div class="b-mobileMennu__element s-spoiler">
+                      <h2 class="b-mobileMennu__title s-spoiler__title">Напитки</h2>
+                      <div class="b-mobileMennu__item s-spoiler__container"><a href="" class="b-mobileMennu__variant s-spoiler__element">Оригинальные</a><a href="" class="b-mobileMennu__variant s-spoiler__element">Премиальные</a><a href="" class="b-mobileMennu__variant s-spoiler__element">Сезонные </a><a href="" class="b-mobileMennu__variant s-spoiler__element">Квас</a><a href="" class="b-mobileMennu__variant s-spoiler__element">Лимонады</a></div>
+                    </div>
+                    <div class="b-mobileMennu__element s-spoiler">
+                      <h2 class="b-mobileMennu__title s-spoiler__title">Пивоварня</h2>
+                      <div class="b-mobileMennu__item s-spoiler__container"><a href="" class="b-mobileMennu__variant s-spoiler__element">История</a><a href="" class="b-mobileMennu__variant s-spoiler__element">О нас</a><a href="" class="b-mobileMennu__variant s-spoiler__element">Экскурсии</a><a href="" class="b-mobileMennu__variant s-spoiler__element">Контакты</a></div>
+                    </div>
+                    <div class="b-mobileMennu__element s-spoiler">
+                      <h2 class="b-mobileMennu__title s-spoiler__title">Интересное</h2>
+                      <div class="b-mobileMennu__item s-spoiler__container"><a href="" class="b-mobileMennu__variant s-spoiler__element">Новости </a><a href="" class="b-mobileMennu__variant s-spoiler__element">Блог</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="b-mfilter__wrapper b-mfilter__wrapper--small">
+                <div class="b-mfilter__button">
+                  <div class="b-mfilter__link">Оригинальные сорта</div>
+                </div>
+                <div class="b-mfilter">
+                  <div class="b-mfilter__item">
+                    <div class="b-mfilter__title">Оригинальные сорта</div><a href="" class="b-mfilter__subtitle">Баварское </a><a href="" class="b-mfilter__subtitle">Городское</a><a href="" class="b-mfilter__subtitle">Красносельское</a><a href="" class="b-mfilter__subtitle">Пильзенское</a><a href="" class="b-mfilter__subtitle">Черное бархатное</a>
+                  </div>
+                  <div class="b-mfilter__item">
+                    <div class="b-mfilter__title">Премиальные сорта</div><a href="" class="b-mfilter__subtitle">Косолаый</a><a href="" class="b-mfilter__subtitle">Раджа Велорикша</a><a href="" class="b-mfilter__subtitle">CAP AMERICA</a><a href="" class="b-mfilter__subtitle">Просто космос</a><a href="" class="b-mfilter__subtitle">Scotland yard</a>
+                  </div>
+                  <div class="b-mfilter__item">
+                    <div class="b-mfilter__title">Сезонные сорта</div><a href="" class="b-mfilter__subtitle">Юбилейное</a><a href="" class="b-mfilter__subtitle">Весенне</a><a href="" class="b-mfilter__subtitle">Шашлычное</a>
+                  </div>
+                  <div class="b-mfilter__item">
+                    <div class="b-mfilter__title">Квас</div><a href="" class="b-mfilter__subtitle">Ермолаевский</a>
+                  </div>
+                  <div class="b-mfilter__item">
+                    <div class="b-mfilter__title">Лимонады</div><a href="" class="b-mfilter__subtitle">Тархун</a><a href="" class="b-mfilter__subtitle">Буратино</a><a href="" class="b-mfilter__subtitle">Крюшон</a><a href="" class="b-mfilter__subtitle">Крем-сода</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="b-ermolaev-slice">
+          <div class="b-ermolaev-cub">
+            <div class="b-ermolaev__subline">Детально проработанное основное меню</div><a href="" style="background:url(images/original.jpg) no-repeat 50% /100%" class="b-gencub__elem b-gencub__1 b-gencub__wide">
+              <h2 class="b-gencub__title"> <span class="b-gencub__titlesourse">Beer fest</span></h2>
+              <p class="b-gencub__subtitle"><span class="b-gencub__data"> 21 сентября 2016</span> <br>Welcome to best beer fest of youre life ! Ermolaev glad to se you again.
+                <div class="b-gencub__icon b-gencub__icon--date"></div>
+              </p></a>
+          </div>
+          <div class="b-ermolaev-timeline">
+            <div style="display:none;" class="b-brewery-timeline__templates">
+              <div id="y2008" class="b-brewery-template">
+                <div class="b-brewery-template__title">Открытие первой<br> пивоварни "Ермолаевъ"</div><a href="http://www.ermolaev-beer.ru/istoriya.html#2008" class="b-brewery-template__link">подробнее</a>
+              </div>
+              <div id="y2011" class="b-brewery-template">
+                <div class="b-brewery-template__title">Открытие "Сельсовета" -<br> первой пивной сети "Ермолаевъ"</div><a href="http://www.ermolaev-beer.ru/istoriya.html#2011" class="b-brewery-template__link">подробнее</a>
+              </div>
+              <div id="y2012" class="b-brewery-template">
+                <div class="b-brewery-template__title">Открытие "Генштаба" - <br>  пивной в центре города. </div><a href="http://www.ermolaev-beer.ru/istoriya.html#2012" class="b-brewery-template__link">подробнее</a>
+              </div>
+              <div id="y2014" class="b-brewery-template">
+                <div class="b-brewery-template__title">Открытие "Охоты-Рыбалки" -<br> третьей пивной сети "Ермолаевъ</div><a href="http://www.ermolaev-beer.ru/istoriya.html#2014" class="b-brewery-template__link">подробнее</a>
+              </div>
+              <div id="y2016" class="b-brewery-template">
+                <div class="b-brewery-template__title">"Строительство второй пивоварни "Ермолаевъ", открытие двух новых магазинов-баров пивоварни</div><a href="http://www.ermolaev-beer.ru/istoriya.html#2016" class="b-brewery-template__link">подробнее</a>
+              </div>
+            </div>
+            <div class="b-brewery-timeline__wrapper">
+              <div class="b-ermolaev__subline">Детально проработанное основное меню</div>
+              <div class="b-brewery-timeline">
+                <div class="b-brewery-timeline__timeline">
+                  <div class="b-brewery-timeline__line">
+                    <!--img(src="images/brewery-zavod-small.png").b-brewery-zavod.b-brewery-zavod--small-->
+                    <!--img(src="images/brewery-zavod-big.png").b-brewery-zavod.b-brewery-zavod--big-->
+                    <div class="b-brewery-timeline__year">
+                      <div class="b-brewery-timeline__name b-brewery-timeline__name--2008">2008</div>
+                      <div data-tooltip-content="#y2008" class="b-brewery-timeline__dot b-brewery-dot b-brewery-dot--2008"></div>
+                    </div>
+                    <div class="b-brewery-timeline__year hidden-xs">
+                      <div class="b-brewery-timeline__name b-brewery-timeline__name--2011">2011</div>
+                      <div data-tooltip-content="#y2011" class="b-brewery-timeline__dot b-brewery-dot b-brewery-dot--2011"></div>
+                    </div>
+                    <div class="b-brewery-timeline__year">
+                      <div class="b-brewery-timeline__name b-brewery-timeline__name--2012">2012</div>
+                      <div data-tooltip-content="#y2012" class="b-brewery-timeline__dot b-brewery-dot b-brewery-dot--2012"></div>
+                    </div>
+                    <div class="b-brewery-timeline__year hidden-xs">
+                      <div class="b-brewery-timeline__name b-brewery-timeline__name--2014">2014</div>
+                      <div data-tooltip-content="#y2014" class="b-brewery-timeline__dot b-brewery-dot b-brewery-dot--2014"></div>
+                    </div>
+                    <div class="b-brewery-timeline__year">
+                      <div class="b-brewery-timeline__name b-brewery-timeline__name--2016">2016</div>
+                      <div data-tooltip-content="#y2016" class="b-brewery-timeline__dot b-brewery-dot b-brewery-dot--2016"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="b-ermolaev__article b-ermolaev__article--8">
+        <canvas id="b-preloader" width="1200" height="700" class="b-preload"></canvas>
+        <div class="b-disclamer__wrapper">
+          <div class="b-disclamer"><span class="b-disclamer__sign">Материалы сайта предназначены для лиц старше 18 лет</span>
+            <h2 class="b-disclamer__title">Тебе уже 18 лет и более лет? </h2>
+            <div class="b-disclamer__buttons">
+              <div class="b-disclamer__button b-disclamer__button--yea">ДА</div>
+              <div class="b-disclamer__button">Нет</div>
             </div>
           </div>
         </div>
